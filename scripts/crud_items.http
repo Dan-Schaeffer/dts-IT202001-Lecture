@@ -1,0 +1,7 @@
+POST http://localhost:3000/additem.test.php
+Content-Type: application/x-www-form-urlencoded
+
+itemID=2000
+&itemName=Fender Stratocaster
+&categoryID=100
+&listPrice=699.00
