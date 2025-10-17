@@ -14,7 +14,7 @@ function getDB()
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
     try {
         $db = new mysqli($host, $username, $password, $dbname, $port);
-        error_log("You are connected to the $host database!");
+       // error_log("You are connected to the $host database!");
       //  echo "You are connected to the $host database!";
         return $db;
     } catch (mysqli_sql_exception $e) {
